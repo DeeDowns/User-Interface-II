@@ -25,8 +25,6 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
-
 }
 
 h1 {
@@ -66,7 +64,7 @@ header nav a:hover {
     
 }
 
-/* main content  */
+/* main content section  */
 
 .main-container {
     display: flex;
@@ -78,6 +76,8 @@ header nav a:hover {
     border-bottom: 2px solid #7F867B;
 }
 
+/* main picture and about me section */
+
 .mid-container1 {
     display: flex;
     width: 90%;
@@ -86,52 +86,49 @@ header nav a:hover {
 }
 
 .mid-container1 img {
-    width: 55%;
-    margin-left: -3%
+    width: 50%;
+    padding-right: 3%;
 }
 
 
 .mid-container1 .mid-sub {
-    width: 35%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
     background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm232batch4-nunny-55.png?w=600&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=transparent&auto=null&fm=png&ixlib=js-2.2.1&s=c6a12e117e0334c6b98758a4478a7246');
     background-position: right center;
-    background-size: 65%;
+    background-size: 44%;
     background-repeat: no-repeat;
-    /* border: 2px solid  #dcdee0; */
     color: #2D2D2B;
 }
 
 .mid-sub h2 {
-    font-size: 2.8rem;
+    font-size: 2.7rem;
     padding: 3%;
     
 }
 
 .mid-sub a {
     font-size: 2.0rem;
+    font-weight: 600;
     color: #2D2D2B;
     text-transform: capitalize;
     text-decoration-color: #7F867B;
     padding: 3%;
-
-
 }
 
 .mid-sub a:hover {
     transform: scale(1.1);
     letter-spacing: .2rem;
-
 }
-
 
 .mid-sub p {
     font-size: 2.0rem;
     font-weight: 600;
     padding: 3%;
+    width: 60%;
 }
 
 .mid-container2 {
@@ -140,6 +137,8 @@ header nav a:hover {
     justify-content: center;
     padding: 2%;
 }
+
+/* project section */
 
 .project-container {
     display: flex;
@@ -158,9 +157,7 @@ header nav a:hover {
 .project8 { 
     width: 22%;
     padding: 1%;
-   
 }
-
 
 .project1,
 .project2,
@@ -192,19 +189,14 @@ header nav a:hover {
 .project-container p {
     font-size: 1.6rem;
     text-align: center;
-    font-weight: 600;
-
-    
-
-    
+    font-weight: 600;  
 }
 
 
 .project-container p a {
     text-transform: lowercase;
     color: #2D2D2B;
-    text-decoration-color: #7F867B; 
-   
+    text-decoration-color: #7F867B;   
 }
 
 /* footer */
@@ -220,8 +212,6 @@ footer {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
-
 
 footer h4 {
     color: #2D2D2B;
@@ -239,12 +229,10 @@ footer a {
     text-transform: lowercase;
     text-decoration-color: #7F867B; 
     color: #7F867B;
-    font-weight: 700;
-  
+    font-weight: 700; 
 }
 
 footer a:hover {
     transform: scale(1.1);
-    letter-spacing: .2rem;
-    
+    letter-spacing: .2rem;  
 }
