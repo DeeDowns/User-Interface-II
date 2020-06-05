@@ -10,8 +10,10 @@
 
 html {
     font-size: 62.5%;
-    font-family: monospace;
+    font-family: 'Raleway', sans-serif;
 }
+
+/* header section */
 
 header {
     display: flex;
@@ -23,15 +25,16 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-   
     
 
 }
 
 h1 {
-    font-size: 5.0rem;
+    font-size: 4.0rem;
+    color: #2D2D2B;
     height: 6rem;
-    margin-left: 8%;
+    margin-left: 7%;
+    letter-spacing: .2rem;
 }
 
 header nav {
@@ -48,36 +51,38 @@ header nav a {
     width: 10%;
     text-align: center;
     height: 100%;
-    font-size: 2.0rem;
+    font-size: 1.8rem;
+    font-weight: 700;
     text-transform: lowercase;
     text-decoration-color: #7F867B; 
     text-transform: lowercase;
     color: #7F867B;
-    font-weight: 600;
+    
 }
 
 header nav a:hover {
     transform: scale(1.1);
-    text-transform:uppercase;
+    letter-spacing: .2rem;
     
 }
 
+/* main content  */
 
 .main-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    
+    background-color: #dcdee0;
+    border-top: 2px solid #7F867B;
+    border-bottom: 2px solid #7F867B;
 }
-
 
 .mid-container1 {
     display: flex;
     width: 90%;
     justify-content: space-around;
-    padding: 2%;
-    background-color: ivory;
+    padding: 2%;  
 }
 
 .mid-container1 img {
@@ -92,21 +97,24 @@ header nav a:hover {
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    border: 5px solid #7F867B;
-
+    background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm232batch4-nunny-55.png?w=600&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=transparent&auto=null&fm=png&ixlib=js-2.2.1&s=c6a12e117e0334c6b98758a4478a7246');
+    background-position: right center;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    /* border: 2px solid  #dcdee0; */
+    color: #2D2D2B;
 }
 
 .mid-sub h2 {
-    font-size: 3.0rem;
+    font-size: 2.8rem;
     padding: 3%;
     
 }
 
 .mid-sub a {
     font-size: 2.0rem;
-    color: #7F867B;
-    text-transform: lowercase;
-    text-transform: lowercase;
+    color: #2D2D2B;
+    text-transform: capitalize;
     text-decoration-color: #7F867B;
     padding: 3%;
 
@@ -115,14 +123,14 @@ header nav a:hover {
 
 .mid-sub a:hover {
     transform: scale(1.1);
-    text-transform:uppercase;
+    letter-spacing: .2rem;
 
 }
 
 
 .mid-sub p {
     font-size: 2.0rem;
-    color: #7F867B;
+    font-weight: 600;
     padding: 3%;
 }
 
@@ -131,7 +139,6 @@ header nav a:hover {
     width: 90%;
     justify-content: center;
     padding: 2%;
-    background-color: ivory;
 }
 
 .project-container {
@@ -151,7 +158,7 @@ header nav a:hover {
 .project8 { 
     width: 22%;
     padding: 1%;
-    border: 5px solid #C7C7BB; 
+   
 }
 
 
@@ -159,35 +166,45 @@ header nav a:hover {
 .project2,
 .project3,
 .project4 {
-    margin-bottom: 5px;
+    margin-bottom: 7px;
 }
 
 .project5,
 .project6,
 .project7,
 .project8 {
-    margin-top: 5px;
+    margin-top: 7px;
+}
+
+.project1:hover,
+.project2:hover,
+.project3:hover,
+.project4:hover,
+.project5:hover,
+.project6:hover,
+.project7:hover,
+.project8:hover { 
+   transform: scale(1.1);
+   letter-spacing: .2rem;
 }
 
 
 .project-container p {
     font-size: 1.6rem;
     text-align: center;
+    font-weight: 600;
+
     
 
     
 }
 
-.project-container p:hover {
-    transform: scale(1.1);
-    text-transform:uppercase;
-    
-}
 
 .project-container p a {
     text-transform: lowercase;
-    color: #7F867B;
+    color: #2D2D2B;
     text-decoration-color: #7F867B; 
+   
 }
 
 /* footer */
@@ -204,27 +221,30 @@ footer {
     background-attachment: fixed;
 }
 
+
+
 footer h4 {
+    color: #2D2D2B;
     text-align: center;
     padding: 2% 0 1%;
-    font-size: 2.4rem
+    font-size: 2.0rem
 }
 
 footer a {
     width: 15%;
     padding: 1% 3%;
     text-align: center;
-    font-size: 2.0rem;
+    font-size: 1.6rem;
     margin-bottom: 2%;
     text-transform: lowercase;
     text-decoration-color: #7F867B; 
     color: #7F867B;
-    font-weight: 600;
+    font-weight: 700;
   
 }
 
 footer a:hover {
     transform: scale(1.1);
-    text-transform:uppercase;
+    letter-spacing: .2rem;
     
 }
