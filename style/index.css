@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 html {
@@ -129,7 +129,7 @@ header nav a:hover {
     font-weight: 600;
     padding: 3%;
     width: 60%;
-    color:white;
+
 }
 
 .mid-container2 {
@@ -174,18 +174,16 @@ header nav a:hover {
     margin-top: 7px;
 }
 
-.project1:hover,
-.project2:hover,
-.project3:hover,
-.project4:hover,
-.project5:hover,
-.project6:hover,
-.project7:hover,
-.project8:hover { 
+.project-container a {
+    text-transform: lowercase;
+    color: #2D2D2B;
+    text-decoration-color: #7F867B;   
+}
+
+.project-container a:hover{ 
    transform: scale(1.1);
    letter-spacing: .2rem;
 }
-
 
 .project-container p {
     font-size: 1.6rem;
@@ -194,11 +192,7 @@ header nav a:hover {
 }
 
 
-.project-container p a {
-    text-transform: lowercase;
-    color: #2D2D2B;
-    text-decoration-color: #7F867B;   
-}
+
 
 /* footer */
 
@@ -291,6 +285,10 @@ footer a img {
     .main-container {
         display: flex;
         flex-direction: column;
+        background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm232batch4-nunny-55.png?w=600&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=transparent&auto=null&fm=png&ixlib=js-2.2.1&s=c6a12e117e0334c6b98758a4478a7246');
+        background-position: 95% 30%;
+        background-size: 25%;
+        background-repeat: no-repeat;
     }
     /* About Me Section */
     .mid-container1 {
@@ -303,28 +301,27 @@ footer a img {
         width: 70%;
         margin: 2% 0;
         align-self: center;
-        padding: 0;
-       
+        padding: 0; 
     }
     .mid-container1 .mid-sub {
         display: flex;
         width: 60%;
         align-items: center;
         justify-content: center;
+        /* background-color:#dcdee0;*/
+        background-image: none; 
     }
     .mid-sub h2 {
         text-align: center;
     }
     .mid-sub p {
         width: 80%;
+        text-align: center;
     }
     /* Project Section */
     .mid-container2 {
         display: flex;
-        
-
     }
-
     .project-container {
         display: flex;
         flex-direction: column wrap;
@@ -370,5 +367,29 @@ footer a img {
 
 /* 500px */
 @media(max-width: 500px) {
-    
+    /* About Me Section */
+    .mid-container1 img {
+        width: 80%;
+    }
+    .mid-container1 .mid-sub {
+        width: 80%;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
