@@ -1,1 +1,395 @@
-/* Add CSS styling here */
+
+/* reset */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    /* border: 1px solid grey; */
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* header section */
+
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content:space-around;
+    padding: 3% 0;
+    background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-s49-jir-1860-chim-01.jpg?w=1200&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=8043b443cbc74528bc9b412ca3a7e3ef');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 4.0rem;
+    color: #2D2D2B;
+    height: 6rem;
+    margin-left: 7%;
+    letter-spacing: .2rem;
+}
+
+header nav {
+    /* height: 4rem; */
+    display: flex;
+    margin-left: 5%;
+    align-items: center;
+    padding: 2% 0;
+    
+    
+}
+
+header nav a {
+    width: 10%;
+    text-align: center;
+    height: 100%;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: lowercase;
+    text-decoration-color: #7F867B; 
+    text-transform: lowercase;
+    color: #7F867B;
+    
+}
+
+header nav a:hover {
+    transform: scale(1.1);
+    letter-spacing: .2rem;
+    
+}
+
+/* main content section  */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #dcdee0;
+    border-top: 2px solid #7F867B;
+    border-bottom: 2px solid #7F867B;
+}
+
+/* main picture and about me section */
+
+.mid-container1 {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    padding: 2%;  
+}
+
+.mid-container1 img {
+    width: 50%;
+    padding-right: 3%;
+}
+
+
+.mid-container1 .mid-sub {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm232batch4-nunny-55.png?w=600&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=transparent&auto=null&fm=png&ixlib=js-2.2.1&s=c6a12e117e0334c6b98758a4478a7246');
+    background-position: right center;
+    background-size: 44%;
+    background-repeat: no-repeat;
+    color: #2D2D2B;
+}
+
+.mid-sub h2 {
+    font-size: 2.7rem;
+    padding: 3%;
+    
+}
+
+.mid-sub a {
+    font-size: 2.0rem;
+    font-weight: 600;
+    color: #2D2D2B;
+    text-transform: capitalize;
+    text-decoration-color: #7F867B;
+    padding: 3%;
+}
+
+.mid-sub a:hover {
+    transform: scale(1.1);
+    letter-spacing: .2rem;
+}
+
+.mid-sub p {
+    font-size: 2.0rem;
+    font-weight: 600;
+    padding: 3%;
+    width: 60%;
+
+}
+
+.mid-container2 {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    padding: 2%;
+}
+
+/* project section */
+
+.project-container {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-between; 
+}
+
+.project1,
+.project2,
+.project3,
+.project4,
+.project5,
+.project6,
+.project7,
+.project8 { 
+    width: 22%;
+    padding: 1%;
+}
+
+.project1,
+.project2,
+.project3,
+.project4 {
+    margin-bottom: 7px;
+}
+
+.project5,
+.project6,
+.project7,
+.project8 {
+    margin-top: 7px;
+}
+
+.project-container a {
+    text-transform: lowercase;
+    color: #2D2D2B;
+    text-decoration-color: #7F867B;   
+}
+
+.project-container a:hover{ 
+   transform: scale(1.1);
+   letter-spacing: .2rem;
+}
+
+.project-container p {
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 600;  
+}
+
+
+
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-s49-jir-1860-chim-01.jpg?w=1200&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=8043b443cbc74528bc9b412ca3a7e3ef');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+footer h4 {
+    color: #2D2D2B;
+    text-align: center;
+    padding: 2% 0 1%;
+    font-size: 2.0rem
+}
+
+footer .email-link{
+    width: 15%;
+    padding: 1% 3%;
+    text-align: center;
+    font-size: 1.6rem;
+    /* margin-bottom: 2%; */
+    text-transform: lowercase;
+    text-decoration-color: #7F867B; 
+    color: #7F867B;
+    font-weight: 700; 
+}
+
+footer .email-link:hover,
+footer .socials a:hover {
+    transform: scale(1.1);
+    letter-spacing: .2rem;  
+}
+
+footer .email-link {
+    width: 50%;
+}
+/* Social Media section */
+footer .socials {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+footer .socials a {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    padding: 2% 0;
+    
+}
+footer a {
+    width: 15%;
+}
+footer a img {
+    width: 20%;
+}
+
+/* MEDIA QUERIES */
+
+/* 800px */
+@media(max-width: 800px) {
+    /* Header/Nav Section */
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1 {
+        width: 90%;
+        text-align: center;
+    }
+    header nav {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        width: 90%;
+        text-align: center;
+    }
+    header nav a {
+        padding: 2%;
+        width: 90%;
+    }
+    /* Main Content Section */
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm232batch4-nunny-55.png?w=600&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=transparent&auto=null&fm=png&ixlib=js-2.2.1&s=c6a12e117e0334c6b98758a4478a7246');
+        background-position: 95% 30%;
+        background-size: 25%;
+        background-repeat: no-repeat;
+    }
+    /* About Me Section */
+    .mid-container1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .mid-container1 img {
+        width: 70%;
+        margin: 2% 0;
+        align-self: center;
+        padding: 0; 
+    }
+    .mid-container1 .mid-sub {
+        display: flex;
+        width: 60%;
+        align-items: center;
+        justify-content: center;
+        /* background-color:#dcdee0;*/
+        background-image: none; 
+    }
+    .mid-sub h2 {
+        text-align: center;
+    }
+    .mid-sub p {
+        width: 80%;
+        text-align: center;
+    }
+    /* Project Section */
+    .mid-container2 {
+        display: flex;
+    }
+    .project-container {
+        display: flex;
+        flex-direction: column wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .project1,
+    .project2,
+    .project3,
+    .project4,
+    .project5,
+    .project6,
+    .project7,
+    .project8 { 
+        width: 35%;
+        padding: 1%;
+    }
+    /* Footer/Nav Section */
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    footer h4 {
+        width: 70%;
+    }
+    footer .email-link {
+        width: 70%;
+    }
+    /* Social Media Section */
+    footer .socials {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+    }
+    footer a img {
+        width: 30%;
+    }
+
+}   
+
+/* 500px */
+@media(max-width: 500px) {
+    /* About Me Section */
+    .mid-container1 img {
+        width: 80%;
+    }
+    .mid-container1 .mid-sub {
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
